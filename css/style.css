@@ -56,3 +56,16 @@ div:empty{
     background-color:blue;
     
 }
+li:nth-child(3n+1){
+    background-color:purple;
+}
+/*selektory atrybutów*/
+input[title]{
+    background-color:brown;
+}
+input[type="text"]{
+    background-color:peachpuff;
+}
+input[title~="Tytuł"]{
+    background-color: grey;
+}
