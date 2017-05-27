@@ -32,3 +32,27 @@ a:hover{
     font-size:2em;
     
 }
+input:focus{
+    background-color: bisque;
+}
+p:target{
+    background-color: cyan;
+}
+p:lang(pl){
+    background-color:white;
+}
+li:first-child{
+    font-size: 2em;
+}
+li:last-child{
+    font-size: 2em;
+}
+p span:only-child{
+    text-decoration: line-through;
+}
+div:empty{
+    width:600px;
+    height:200px;
+    background-color:blue;
+    
+}
