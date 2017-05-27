@@ -1,0 +1,12 @@
+*{ /*ostyluje nam wszystko, selektor uniwersalny, najsłabszy */
+    background-color: burlywood; 
+}
+p{/*selektor znacznika/elementu */
+    background-color: cadetblue;   
+}
+/*Pseudo selektory*/
+#par1::before{
+    content:'*';
+    color:#ffffff;
+    font-size: 3em; /* 3 razy wielkość rodzica*/
+}
